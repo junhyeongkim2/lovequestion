@@ -4,24 +4,22 @@
     "slug": "lovequestion",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/img.jpeg",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./src/img.jpeg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
+    "assetBundlePatterns": ["**/*"],
     "android": {
+      "permissions": [],
+      "package": "com.kjh.lovequestion",
+      "versionCode": 5,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./src/img.jpeg",
         "backgroundColor": "#FFFFFF"
       }
     },
